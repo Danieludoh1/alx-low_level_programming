@@ -2,8 +2,7 @@
 /**
  * main - Entry point for the program.
  *
- * Perform initialization and call other functions to carry out the desired actions of the program.
- *
+ * Perform initialization and call other functions to carry out the desired actions.
  * Returns:
  *   0 on success, or a non-zero value on failure.
  */
