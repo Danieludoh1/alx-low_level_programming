@@ -3,7 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/** betty style doc for function main goes there
+/**
+ * betty style doc for function main goes there
  * main: Print weather the number stored in n
  * is positive or negative.
  */
