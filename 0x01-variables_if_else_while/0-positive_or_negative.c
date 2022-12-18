@@ -4,7 +4,6 @@
 /* more headers goes there */
 
 /**
- * betty style doc for function main goes there
  * main: main block
  * Description: Get A Ramdom Number and print if it's
  * Negative or positive.
