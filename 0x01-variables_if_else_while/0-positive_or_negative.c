@@ -3,7 +3,10 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there */
+/* betty style doc for function main goes there
+ * main - Print weather the number stored in n
+ * is positive or negative.
+ */
 int main(void)
 {
 	int n;
@@ -20,8 +23,8 @@ int main(void)
 		printf("%d is negative\n", n);
 	} else
 	{
-	
-		printf("%d in Zero\n", n);
+
+		printf("%d in zero\n", n);
 	}
 	return (0);
 }
