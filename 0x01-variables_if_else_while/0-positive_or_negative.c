@@ -5,6 +5,9 @@
 
 /**
  * main: main block
+ *
+ * Short description: Generate a random number and print whether it is positive, negative, or zero.
+ *
  * Description: Get A Ramdom Number and print if it's
  * Negative or positive.
  * Return: 0
