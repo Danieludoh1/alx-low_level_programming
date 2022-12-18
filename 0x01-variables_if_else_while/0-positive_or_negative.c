@@ -3,7 +3,8 @@
 #include <stdio.h>
 
 /**
- * main: main block
+ * main: Generate a random number and print whether
+ * it is positive, negative, or zero.
  *
  * Short description: Generate a random number and print whether
  * it is positive, negative, or zero.
