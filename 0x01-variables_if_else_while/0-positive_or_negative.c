@@ -3,8 +3,8 @@
 #include <stdio.h>
 /* more headers goes there */
 
-/* betty style doc for function main goes there
- * main - Print weather the number stored in n
+/** betty style doc for function main goes there
+ * main: Print weather the number stored in n
  * is positive or negative.
  */
 int main(void)
@@ -24,7 +24,7 @@ int main(void)
 	} else
 	{
 
-		printf("%d in zero\n", n);
+		printf("%d is zero\n", n);
 	}
 	return (0);
 }
