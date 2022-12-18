@@ -4,10 +4,7 @@
 
 /**
  * main: Generate a random number and print whether
- * it is positive, negative, or zero.
- *
- * Short description: Generate a random number and print whether
- * it is positive, negative, or zero.
+ * it is positive, negative, or zero. 
  *
  * Description: Get A Ramdom Number and print if it's
  * Negative or positive.
