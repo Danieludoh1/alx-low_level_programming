@@ -3,11 +3,9 @@
 #include <stdio.h>
 
 /**
- * main: Generate a random number and print whether
- * it is positive, negative, or zero. 
- *
+ * main - main block 
  * Description: Get A Ramdom Number and print if it's
- * Negative or positive.
+ * Negative or positive or zero.
  * Return: 0
  */
 int main(void)
