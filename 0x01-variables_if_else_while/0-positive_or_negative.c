@@ -5,8 +5,10 @@
 
 /**
  * betty style doc for function main goes there
- * main: Print weather the number stored in n
- * is positive or negative.
+ * main: main block
+ * Description: Get A Ramdom Number and print if it's
+ * Negative or positive.
+ * Return: 0
  */
 int main(void)
 {
