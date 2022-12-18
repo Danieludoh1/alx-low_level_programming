@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- * main - main block 
+ * main - main block
  * Description: Get A Ramdom Number and print if it's
  * Negative or positive or zero.
  * Return: 0
