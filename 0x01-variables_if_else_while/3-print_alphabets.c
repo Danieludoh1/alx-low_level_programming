@@ -8,9 +8,10 @@
  * Return: 0
  */
 
-int main (void) 
+int main(void)
 {
 	char a, b;
+
 	for (a = 'a'; a <= 'z'; a++)
 	{
 		putchar(a);
