@@ -2,8 +2,8 @@
 
 /**
  * main - main block
- * 
- * Description: Print The LowerCase alphabet 
+ *
+ * Description: Print The LowerCase alphabet
  * In Reverse, followed by a new line.
  *
  * Return: 0
