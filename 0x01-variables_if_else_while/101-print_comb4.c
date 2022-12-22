@@ -2,7 +2,7 @@
 /**
  * main - main block
  *
- * Description: Print All Possible Different Combinations Of 
+ * Description: Print All Possible Different Combinations Of
  * Three Digits
  *
  * Return: 0
