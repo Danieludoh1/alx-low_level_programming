@@ -22,10 +22,10 @@ int main(void)
 			putchar(j + '0');
 
 			if (i <= 7 && j <= 9)
-			{
+			
 			putchar(',');
 			putchar(' ');
-			}
+			
 		}
 	}
 		
