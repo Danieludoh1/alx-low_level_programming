@@ -2,18 +2,18 @@
 /*
  * main - main block
  *
- * Description: Prints All Possible combinations of Two 
+ * Description: Prints All Possible combinations of Two
  * Two-digit numbers.
  *
  * Return: 0
-*/
+ */
 
 int main(void)
 {
 	int i;
 	int j;
 
-	for (i = 0; i < 100; i++) 
+	for (i = 0; i < 100; i++)
 	{
 		for (j = i + 1; j < 100; j++)
 		{
@@ -22,13 +22,12 @@ int main(void)
 			putchar(' ');
 			putchar(j / 10 + '0');
 			putchar(j % 10 + '0');
-			if(i < 98)
+			if (i < 98)
 			{
 			putchar(',');
 			putchar(' ');
-			
-    }
-  }
+			}
+		}
 	}
 	putchar('\n');
 	return (0);
