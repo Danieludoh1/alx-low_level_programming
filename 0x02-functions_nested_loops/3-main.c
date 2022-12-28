@@ -11,9 +11,9 @@ int main(void)
 	int r;
 
 	r = _islower('H');
-	printf("%d\n", r);
+	printf("%d", r);
 	r = _islower('o');
-	printf("%d\n", r);
+	printf("%d", r);
 	r = _islower(108);
 	printf("%d\n", r);
 	return (0);
