@@ -10,6 +10,8 @@
  */
 
 void print_alphabet(void)
+/*Description: Prints The Alphabets In Lower Case FollowedBy A New Line*/
+
 {
 	char c;
 
