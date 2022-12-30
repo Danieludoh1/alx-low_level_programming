@@ -14,7 +14,7 @@ int main(void)
 	r = print_last_digit(0);
 	_putchar(r +'0');
 	r = print_last_digit(-1024);
-	printf("%d\n", r);
+	_putchar(-r + '0');
 	_putchar('\n');
 	return (0);
 }
