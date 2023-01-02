@@ -3,7 +3,7 @@
 
 /**
  * add - Adds Two Integers and return the result
- * @a: The Character to be checked and then added to b 
+ * @a: The Character to be checked and then added to b
  * @b: The character to be checked and then added to a
  * Return: The Result.
  */
