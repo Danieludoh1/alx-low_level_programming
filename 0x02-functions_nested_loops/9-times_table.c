@@ -18,11 +18,11 @@ void times_table(void)
 			/*printf("%d, ", product);*/
 			if (j == 9)
 			{
-				printf("%d", product);
+				printf("%2d", product);
 			}
 			else
 			{
-				printf("%d, ", product);
+				printf("%2d, ", product);
 			}
 		}
 		printf("\n");
