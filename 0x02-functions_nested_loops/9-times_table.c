@@ -25,7 +25,12 @@ void times_table(void)
 			{
 				printf("%2d, ", product);
 			}*/
-			if ((product >= 1 || product < 10) && j <= 8)
+			if (j == 0)
+			{
+				printf("%d, ", product);
+			}
+			/*if (((product >= 1 || product < 10) && j <= 8) || (j != 0))*/
+			if ((j != 0) && j < 9)
 			{
 				printf("%2d, ", product);
 			}
