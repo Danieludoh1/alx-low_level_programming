@@ -23,15 +23,15 @@ void print_times_table(int n)
 				int product = i * j;
 				if (j == 0)
 				{
-					printf("%d, ",product);
+					printf("%d,  ",product);
 				}
 				if ((j != 0) && j < n)
 				{
-					printf("%2d, ", product);
+					printf("%2d,  ", product);
 				}
 				if (j == n)
 				{
-					printf("%2d", product);
+					printf("%3d", product);
 				}
 
 
