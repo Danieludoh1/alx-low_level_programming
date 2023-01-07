@@ -21,7 +21,7 @@ void print_times_table(int n)
 			for (j = 0; j <= n; j++)
 			{
 				int product = i * j;
-				if (j == 0)
+				if ((n != 0) && j == 0)
 				{
 					printf("%d, ",product);
 				}
@@ -29,9 +29,13 @@ void print_times_table(int n)
 				{
 					printf("%3d, ", product);
 				}
-				if (j == n)
+				if ((n != 0) && j == n)
 				{
 					printf("%3d", product);
+				}
+				if (n == 0)
+				{
+					printf("%d", product);
 				}
 
 
