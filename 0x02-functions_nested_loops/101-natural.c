@@ -15,15 +15,19 @@ int main(void)
 
 	int i;
 
+	int final;
+
 	for (i = 1; i < 1024; i++)
 	{
 		if (i % 3 == 0 || i % 5 == 0)
 		{
-			total += i;
+			total = total + i;
 
-			/*printf("%d", total);*/
 		}
-		printf("%d\n", total);
+
+		final = total;
 	}
+	printf("%d\n", final);
+
 	return (0);
 }
