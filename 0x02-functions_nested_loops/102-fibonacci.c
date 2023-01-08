@@ -10,20 +10,22 @@
 
 int main (void)
 {
-	int i, c;
+	long i;
 
-	int a = 1;
+	long a = 1;
 	
-	int b = 2;
+	long b = 2;
 
-	printf("%d, %d, ", a, b);
+	long c = 0;
 
-	for (i = 2; i < 50; i++)
+	printf("%ld, %ld, ", a, b);
+
+	for (i = 2; i <= 50; i++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%d, ", c);
+		printf("%ld, ", c);
 	}
 	return (0);
 }
