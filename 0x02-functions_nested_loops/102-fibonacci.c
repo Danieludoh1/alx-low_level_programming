@@ -16,16 +16,16 @@ int main (void)
 	
 	long b = 2;
 
-	long c = 0;
+	long c;
 
 	printf("%ld, %ld, ", a, b);
 
-	for (i = 2; i <= 50; i++)
+	for (i = 3; i <= 50; i++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf("%ld, ", c);
+		printf(i == 50 ? "%ld" : "%ld, ", c);
 	}
 	return (0);
 }
