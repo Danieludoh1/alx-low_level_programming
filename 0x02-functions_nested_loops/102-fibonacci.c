@@ -8,12 +8,12 @@
  * Return: Always 0;
  */
 
-int main (void)
+int main(void)
 {
 	long i;
 
 	long a = 1;
-	
+
 	long b = 2;
 
 	long c;
