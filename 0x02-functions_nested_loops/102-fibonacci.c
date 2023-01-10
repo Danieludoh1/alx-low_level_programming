@@ -25,7 +25,7 @@ int main (void)
 		c = a + b;
 		a = b;
 		b = c;
-		printf(i == 50 ? "%ld" : "%ld, ", c);
+		printf(i == 50 ? "%ld\n" : "%ld, ", c);
 	}
 	return (0);
 }
