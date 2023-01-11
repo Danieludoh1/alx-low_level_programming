@@ -10,19 +10,19 @@
 
 int main(void)
 {
-	unsigned int a = 1;
+	unsigned long int a = 1;
 
-	unsigned int b = 2;
+	unsigned long int b = 2;
 
-	unsigned int i, c;
+	unsigned long int i, c;
 
-	printf("%u, %u, ", a, b);
+	printf("%lu, %lu, ", a, b);
 	for (i = 3; i <= 98; i++)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf(i == 98 ? "%u\n" : "%u, ", c);
+		printf(i == 98 ? "%lu\n" : "%lu, ", c);
 	}
 	return (0);
 }
