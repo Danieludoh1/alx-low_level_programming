@@ -16,11 +16,11 @@ int main(void)
 
 	long b = 4;
 
-	long c;
+	long c, sum;
 
 	printf("%ld, %ld, ", a, b);
 
-	for (i = 2; i <= 29; i++)
+	for (i = 2; i <= 32; i++)
 	{
 		c = a + b;
 		a = b;
