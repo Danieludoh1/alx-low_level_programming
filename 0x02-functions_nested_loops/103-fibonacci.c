@@ -10,23 +10,31 @@
 
 int main(void)
 {
-	long i;
+	/*long long i;*/
 
-	long a = 2;
+	long long a = 2;
 
-	long b = 4;
+	long long b = 4;
 
-	long c, sum;
+	long long c, sum;
 
-	printf("%ld, %ld, ", a, b);
 
-	for (i = 2; i <= 32; i++)
+c = 0;
+	while ((c < 4000000) && c % 2 == 0)
 	{
 		c = a + b;
 		a = b;
 		b = c;
-		printf(i == 29 ? "%ld\n" : "%ld, ", c);
+		sum += c;
+
+		c = c + 1;
+
+		/*if ( c % 2 == 0)
+		{
+			sum += c;
+		}*/
 	}
+	printf("%lld", sum);
 	return (0);
 }
 
