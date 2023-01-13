@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include "main.h"
+
 /**
- *
- * Description: Prints The even fibonacci seequence below 4000000,
+ * Description: Prints The even fibonacci sequence below 4000000,
  * Followed by a new line.
  * Return: Always 0.
  */
@@ -13,6 +13,7 @@ int main(void)
 	long b = 1;
 	long c = 0;
 	long sum = 0;
+
 	while (c <= 4000000)
 	{
 		c = a + b;
