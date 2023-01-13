@@ -2,6 +2,7 @@
 #include "main.h"
 
 /**
+ *
  * Description: Prints The even fibonacci sequence below 4000000,
  * Followed by a new line.
  * Return: Always 0.
