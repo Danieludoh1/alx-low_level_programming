@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- *
+ * main - main block
  * Description: Prints The even fibonacci sequence below 4000000,
  * Followed by a new line.
  * Return: Always 0.
