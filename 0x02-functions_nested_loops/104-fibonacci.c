@@ -49,7 +49,7 @@ int main(void)
 		ar = br;
 		bl = cl;
 		br = cr;
-		printf("%lu%lu,  ", cl, cr);
+		printf("%lu%lu, ", cl, cr);
 	}
 
 
