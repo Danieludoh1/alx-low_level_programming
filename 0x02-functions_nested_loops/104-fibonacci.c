@@ -62,7 +62,7 @@ int main(void)
 		ar = br;
 		bl = cl;
 		br = cr;
-		printf(i == 2 ? "%lu%lu" : "%lu%lu, ", (cl / 10), cr);
+		printf(i == 2 ? "%lu%lu\n" : "%lu%lu, ", (cl / 10), cr);
 
 	}
 		/*if ( i >= 5)
