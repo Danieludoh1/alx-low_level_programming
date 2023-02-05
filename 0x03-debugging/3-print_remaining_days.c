@@ -25,7 +25,8 @@ void print_remaining_days(int month, int day, int year)
 
 	else if ((month == 02 && day == 60) && (year % 400 != 0 || year % 4 != 0))
 	{
-		printf("Invalid date: %d/%2d/%4d\n", month, day - 31, year);
+		month = 02;
+		printf("Invalid date: %02d/%2d/%4d\n", month, day - 31, year);
 	}
 
 		else
