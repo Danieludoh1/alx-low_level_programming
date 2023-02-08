@@ -3,10 +3,10 @@
 
 /**
  * mul - Multiplies Two Integers.
- * int a: The Multiplier
- * int b: The Multiplicand
+ * @a: The Multiplier
+ * @b: The Multiplicand
  * Return: The Result
- */
+ */i
 
 int mul(int a, int b)
 {
@@ -14,5 +14,5 @@ int mul(int a, int b)
 
 	result = a * b;
 
-	return result;
+	return (result);
 }
