@@ -6,7 +6,7 @@
  * @a: The Multiplier
  * @b: The Multiplicand
  * Return: The Result
- */i
+ */
 
 int mul(int a, int b)
 {
