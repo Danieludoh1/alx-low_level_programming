@@ -1,16 +1,11 @@
 #include <ctype.h>
 #include <stdio.h>
 
-int main() {
-  char ch = 'V';
-  int root;
+int main() 
+{
+	int test[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
 
-  root = isalpha(ch);
-  printf("%d", root);
-
-   /* printf("%c is an alphabetic character\n", ch);
-  } else {
-    printf("%c is not an alphabetic character\n", ch);
-  }*/
+	printf("%d", test);
+  
   return 0;
 }
